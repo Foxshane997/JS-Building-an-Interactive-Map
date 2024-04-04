@@ -29,7 +29,7 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 // let marker = L.marker([51.1, -0.09]).addTo(map);
 
 let marker = L.marker([48.87007, 2.346453])
-marker.addTo(map).bindPopup('<p1><b>The Hoxton, Paris</b></p1>').openPopup()
+marker.addTo(myMap).bindPopup('<p1><b>The Hoxton, Paris</b></p1>').openPopup()  /*this looks like what is causing error */
 
 
 // Draw the 2nd arrondissement
